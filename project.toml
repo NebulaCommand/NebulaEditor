@@ -1,0 +1,12 @@
+[project]
+name = "code-editor"
+version = "0.1.0"
+description = ""
+main_script = "./src/main.py"
+
+[packages]
+QScintilla = "2.14.1"
+PyQt5 = "5.15.7"
+
+[scripts]
+upgrade-pip = "python -m pip install --upgrade pip"
